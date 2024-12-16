@@ -21,12 +21,12 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "7907063973:AAEDag6t0YS4ERwoCrHIPwenz9hjlEv
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://envs.sh/GiJ.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://envs.sh/GiJ.jpg")
+PICS = (environ.get('PICS', 'https://envs.sh/kOW.jpg')).split() #SAMPLE PIC
+NOR_IMG = environ.get("NOR_IMG", "https://envs.sh/kOW.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://envs.sh/5rb.mp4")
-SPELL_IMG = environ.get("SPELL_IMG", "https://envs.sh/GiJ.jpg")
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/GiJ.jpg'))
-CODE = (environ.get('CODE', 'https://envs.sh/GiJ.jpg'))
+SPELL_IMG = environ.get("SPELL_IMG", "https://envs.sh/kOW.jpg.jpg")
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/kOW.jpg'))
+CODE = (environ.get('CODE', 'https://envs.sh/kOW.jpg'))
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'api.shareus.io'))
